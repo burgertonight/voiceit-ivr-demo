@@ -332,4 +332,4 @@ app.post('/process_authentication', function(req, res) {
 });
 
 app.listen(port);
-console.log('Running bioauthentication on port ' + port);
+console.log('Running VoiceIt Authentication Demo on port ' + port);
