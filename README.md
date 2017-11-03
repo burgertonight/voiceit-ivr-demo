@@ -17,7 +17,7 @@ This will install the application and all the dependencies on Heroku (login requ
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 
-After installation you also need to log in to your twilio account and point a purchased phone number to this new application like shown below.
+After installation you also need to log in to your twilio account and point a purchased phone number to this new application like shown below. Make sure set webhook when call comes in to the right URL and HTTP request to POST.
 
 <img src="/PointTwilioNumber.png" alt="API Key and Token" width="800px" />
 
@@ -33,6 +33,7 @@ You can now call the twilio number you have pointed to the application and try o
 1. Set the environment variable `VOICEIT_DEVELOPER_ID` to your VoiceIt DeveloperId and `VOICEPRINT_PHRASE` to a phrase that you have pre - approved in your VoiceIt console and `CONTENT_LANGUAGE` to associated contentLanguage
 2. `npm start`
 3. Point a Twilio Phone number to VoiceURL to your `http://app-name-here/incoming_call`
+4. Make sure the HTTP Method is set to POST
 
 ### Deploy to Heroku
 
