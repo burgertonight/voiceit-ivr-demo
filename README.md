@@ -1,5 +1,5 @@
-# voiceit-ivr-demo
-A NodeJS and Twilio Based IVR Demo, showing an integration example between VoiceIt and twilio APIs
+# VoiceIt API 1.0 IVR Demo
+A NodeJS and Twilio Based IVR Demo, showing an integration example between VoiceIt's API 1.0 and twilio APIs
 
 ## Pre-Requisites
 
