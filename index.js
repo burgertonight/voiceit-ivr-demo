@@ -126,7 +126,7 @@ app.post('/enroll_or_authenticate', function(req, res) {
       callback: function(getEnrollmentsCountResponse) {
         console.log("The Server Responded with the JSON: ", getEnrollmentsCountResponse);
         const enrollmentsCount = JSON.parse(getEnrollmentsCountResponse).Result;
-        if(enrollmentsCount > 2){
+        if(enrollmentsCount > 0){
           twiml.redirect('/authenticate');
           res.type('text/xml');
           res.send(twiml.toString());
